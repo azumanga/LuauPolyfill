@@ -1,0 +1,7 @@
+[package]
+author = "azumanga"
+content_root = "./src"
+dependencies_root = "./src"
+license = "MIT"
+name = "azumanga/LuauPolyfill"
+version = "1.0.0"

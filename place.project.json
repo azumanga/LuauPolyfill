@@ -1,0 +1,14 @@
+{
+	"name": "LuauPolyfill",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$ignoreUnknownInstances": true,
+			"LuauPolyfill": {
+				"$path": "src",
+				"$ignoreUnknownInstances": true
+			}
+		}
+	}
+}
