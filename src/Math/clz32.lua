@@ -1,3 +1,5 @@
+--[[
+Uncomment this code to get the old implementation of clz32.
 --!strict
 local rshift = bit32.rshift
 local log = math.log
@@ -12,3 +14,6 @@ return function(x: number): number
 	end
 	return 31 - floor(log(as32bit) / LN2)
 end
+]]
+
+return bit32.countlz
